@@ -1,133 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Create product list with CSS3</title>
-  <style type="text/css">
-    .ProductDetails {
-      display: none;
-    }
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Create product list with CSS3</title>
+    <style type="text/css">
+      .ProductDetails {
+        display: none;
+      }
 
-    .Product img{
-      width: 150px;
-      height: 150px;
-      border-radius: 20px;
-      box-shadow: 5px 5px 10px #aaa;
-      text-align: center;
-      margin: 0px 20px;
-      float: left;
-      cursor: pointer;
-    }
-
-    .Product:hover .ProductDetails {
-      display: block;
-    }
-
-    .ProductName {
-      font-weight: bold;
-    }
-
-    .ProductPrice {
-      font-style: italic;
-    }
-
-    .ProductPrice:before {
-      content: " - ";
-    }
-    .Product {
-        text-alight: center:
-        witdh: 130px
-        margin: 0px 15px;
+      .Product img{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #aaa;
+        text-align: center;
+        margin: 0px 20px;
         float: left;
         cursor: pointer;
+      }
 
-    }
-  </style>
-</head>
-<body>
-  <div class="Product">
-    <img src="https://afamilycdn.com/150157425591193600/2023/6/30/a1-9994-1688099763274-1688099763441337179990.jpg" alt="Haicau" />
-    <div class="ProductDetails">
-      <span class="ProductName">Hai cau </span>
-      <span class="ProductPrice">song duoi bien </span>
+      .Product:hover .ProductDetails {
+        display: block;
+      }
+
+      .ProductName {
+        font-weight: bold;
+      }
+
+      .ProductPrice {
+        font-style: italic;
+      }
+
+      .ProductPrice:before {
+        content: " - ";
+      }
+      .Product {
+          text-alight: center:
+          witdh: 130px
+          margin: 0px 15px;
+          float: left;
+          cursor: pointer;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Product">
+      <img src="https://afamilycdn.com/150157425591193600/2023/6/30/a1-9994-1688099763274-1688099763441337179990.jpg" alt="Haicau" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hai cau </span>
+        <span class="ProductPrice">song duoi bien </span>
+      </div>
     </div>
-  </div>
 
-  <div class="Product">
-    <img src="https://petdanphuong.com.vn/wp-content/uploads/2022/01/b111679be18a22fbe3aa8026f1041273-1.jpg" alt="Thỏ7" />
-    <div class="ProductDetails">
-      <span class="ProductName">Tho </span>
-      <span class="ProductPrice">Song trong rung </span>
+    <div class="Product">
+      <img src="https://petdanphuong.com.vn/wp-content/uploads/2022/01/b111679be18a22fbe3aa8026f1041273-1.jpg" alt="Thỏ7" />
+      <div class="ProductDetails">
+        <span class="ProductName">Tho </span>
+        <span class="ProductPrice">Song trong rung </span>
+      </div>
     </div>
-  </div>
 
-  <div class="Product">
-    <img src="https://image.tienphong.vn/w890/Uploaded/2024/qhj_hiobgobrfc/2018_11_14/tien_phong_dac_diem_ha_ma_HAGS.jpg" alt="Hà mã " />
-    <div class="ProductDetails">
-      <span class="ProductName">Hà Mã</span>
-      <span class="ProductPrice">Sống dưới nước ngọt</span>
+    <div class="Product">
+      <img src="https://image.tienphong.vn/w890/Uploaded/2024/qhj_hiobgobrfc/2018_11_14/tien_phong_dac_diem_ha_ma_HAGS.jpg" alt="Hà mã " />
+      <div class="ProductDetails">
+        <span class="ProductName">Hà Mã</span>
+        <span class="ProductPrice">Sống dưới nước ngọt</span>
+      </div>
     </div>
-  </div>
 
 
-  <div class="Product">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG" alt="Huu cao co" />
-    <div class="ProductDetails">
-      <span class="ProductName">Hưu cao cổ</span>
-      <span class="ProductPrice">Sống trên thảo nguyên</span>
+    <div class="Product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG" alt="Huu cao co" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hưu cao cổ</span>
+        <span class="ProductPrice">Sống trên thảo nguyên</span>
+      </div>
     </div>
-  </div>
 
 
-  <div class="Product">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Sư tử" />
-    <div class="ProductDetails">
-      <span class="ProductName">Sư Tử</span>
-      <span class="ProductPrice">Sống trong nhà em</span>
+    <div class="Product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Sư tử" />
+      <div class="ProductDetails">
+        <span class="ProductName">Sư Tử</span>
+        <span class="ProductPrice">Sống trong nhà em</span>
+      </div>
     </div>
-  </div>
-  
-  <div class="Product">
-    <img src="https://cdnphoto.dantri.com.vn/vbbCxOdB8txo6kpRajoSoHMP_io=/2022/05/24/moi-lac-da-1653347512229.jpg" alt="Lạc đÀ" />
-    <div class="ProductDetails">
-      <span class="ProductName">Lạc đà</span>
-      <span class="ProductPrice">Sống trên sa mạc</span>
+    
+    <div class="Product">
+      <img src="https://cdnphoto.dantri.com.vn/vbbCxOdB8txo6kpRajoSoHMP_io=/2022/05/24/moi-lac-da-1653347512229.jpg" alt="Lạc đÀ" />
+      <div class="ProductDetails">
+        <span class="ProductName">Lạc đà</span>
+        <span class="ProductPrice">Sống trên sa mạc</span>
+      </div>
     </div>
-  </div>
 
-  
-  <div class="Product">
-    <img src="https://danviet.mediacdn.vn/296231569849192448/2021/9/20/1-1632106515790500867478.jpg" alt="Chim cánh cụt" />
-    <div class="ProductDetails">
-      <span class="ProductName">Chim cánh cụt</span>
-      <span class="ProductPrice">Sống tại nam cực</span>
+    
+    <div class="Product">
+      <img src="https://danviet.mediacdn.vn/296231569849192448/2021/9/20/1-1632106515790500867478.jpg" alt="Chim cánh cụt" />
+      <div class="ProductDetails">
+        <span class="ProductName">Chim cánh cụt</span>
+        <span class="ProductPrice">Sống tại nam cực</span>
+      </div>
     </div>
-  </div>
 
-  <div class="Product">
-    <img src="https://nhadepso.com/wp-content/uploads/2023/02/chia-se-50-hinh-anh-con-bao-ngau-sieu-dep-cuc-dung-manh_2.jpg" alt="Con Báo" />
-    <div class="ProductDetails">
-      <span class="ProductName">Con báo</span>
-      <span class="ProductPrice">Sống trên savana </span>
+    <div class="Product">
+      <img src="https://nhadepso.com/wp-content/uploads/2023/02/chia-se-50-hinh-anh-con-bao-ngau-sieu-dep-cuc-dung-manh_2.jpg" alt="Con Báo" />
+      <div class="ProductDetails">
+        <span class="ProductName">Con báo</span>
+        <span class="ProductPrice">Sống trên savana </span>
+      </div>
+      <div class="Product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ragondins_sur_la_base_de_Vaires_D160306_1.jpg" alt="Daisy" />
+        <div class="ProductDetails">
+          <span class="ProductName">Hai Ly</span>
+          <span class="ProductPrice">Sống trên đập</span>
+        </div>
+      </div>
     </div>
-  </div>
-
-
-  <div class="Product">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ragondins_sur_la_base_de_Vaires_D160306_1.jpg" alt="Daisy" />
-    <div class="ProductDetails">
-      <span class="ProductName">Hai Ly</span>
-      <span class="ProductPrice">Sống trên đập</span>
+    <div class="Product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ragondins_sur_la_base_de_Vaires_D160306_1.jpg" alt="Daisy" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hai Ly</span>
+        <span class="ProductPrice">Sống trên đập</span>
+      </div>
     </div>
-  </div>
-
-  <div class="Product">
-    <img src="https://sieupet.com/sites/default/files/meo_rung.jpg" alt="Lynx" />
-    <div class="ProductDetails">
-      <span class="ProductName">Mèo rừng</span>
-      <span class="ProductPrice">Sống trong rừng</span>
+    <div class="Product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ragondins_sur_la_base_de_Vaires_D160306_1.jpg" alt="Daisy" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hai Ly</span>
+        <span class="ProductPrice">Sống trên đập</span>
+      </div>
     </div>
-  </div>
 
-</body>
-</html>
+    <div class="Product">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ragondins_sur_la_base_de_Vaires_D160306_1.jpg" alt="Daisy" />
+      <div class="ProductDetails">
+        <span class="ProductName">Hai Ly</span>
+        <span class="ProductPrice">Sống trên đập</span>
+      </div>
+    </div>
+
+    <div class="Product">
+      <img src="https://sieupet.com/sites/default/files/meo_rung.jpg" alt="Lynx" />
+      <div class="ProductDetails">
+        <span class="ProductName">Mèo rừng</span>
+        <span class="ProductPrice">Sống trong rừng</span>
+      </div>
+    </div>
+
+  </body>
+  </html>
